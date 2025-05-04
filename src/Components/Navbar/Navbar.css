@@ -1,0 +1,78 @@
+.link{
+    color: black;
+    text-decoration: none;
+}
+.link-seleccionado{
+    color: red;
+    text-decoration: solid underline 1px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .navbar {
+    background-color: #ffe600;
+    padding: 12px 24px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Contenedor interno */
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Título o logo */
+  .navbar-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Links */
+  .navbar-links {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    padding: 6px 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Link activo (como el subrayado de MELI) */
+  .nav-link-active {
+    border-bottom: 2px solid #333;
+  }
